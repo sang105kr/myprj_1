@@ -7,3 +7,8 @@ const $btDel = document.getElementById('btDel');
 $btDel.addEventListener('click', () => {
   console.log('삭제');
 });
+
+const $btnUpdate = document.getElementById('btnUpdate');
+$btnUpdate.addEventListener('click', () => {
+  console.log('수정');
+});
